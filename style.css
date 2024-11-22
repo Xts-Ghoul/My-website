@@ -1,0 +1,68 @@
+body {
+    background-color: #e0f7fa; /* Light cyan background */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #00796b; /* Teal color for the main heading */
+    margin-top: 20px; /* Add space above the heading */
+}
+
+h2 {
+    color: #00796b; /* Teal color for subheadings */
+    margin: 10px 0; /* Margin for subheadings */
+}
+
+article {
+    background-color: #ffffff; /* White background for articles */
+    border: 2px solid #b2dfdb; /* Light teal border */
+    margin: 20px auto; /* Center the articles */
+    padding: 15px; /* Padding inside articles */
+    border-radius: 8px; /* Rounded corners */
+    width: 80%; /* Set a width for articles */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+header {
+    color: #004d40; /* Darker teal for header text */
+    margin-bottom: 10px; /* Space below the header */
+    font-weight: bold; /* Bold the header text */
+}
+
+p {
+    margin: 10px 0; /* Margin for paragraphs */
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+img[alt="Plankton"]{
+    height: 500px;
+    width: 50%;
+    background-color: powderblue;
+  }  
+/* Styling for the navigation bar */
+.menu {
+    background-color: #333;  /* Dark background color */
+    padding: 10px;
+    text-align: center;      /* Center all the links */
+}
+
+.menu a {
+    color: white;            /* White text color for links */
+    text-decoration: none;   /* Remove underline */
+    padding: 10px 20px;      /* Add padding around the links */
+}
+
+.menu a:hover {
+    background-color: #575757;  /* Change background on hover */
+    color: yellow;              /* Change text color on hover */
+}
+footer {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+input{
+    border: 2px solid red;
+  border-radius: 5px;
+}
